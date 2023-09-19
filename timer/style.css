@@ -1,0 +1,32 @@
+/* reset */
+body {
+  margin: unset;
+}
+h1 {
+}
+/* contents */
+body {
+  display: flex;
+  justify-content: center;
+}
+.wrap {
+  box-shadow: inset 0 0 30px orange;
+}
+.container {
+  box-shadow: inset 0 0 30px red;
+  width: 400px;
+  height: 360px;
+  border-radius: 16px;
+  background: var(
+    --gradient,
+    linear-gradient(144deg, #5572bb 2.13%, #374b7c 102.97%)
+  );
+  box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+}
+
+.container p {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
